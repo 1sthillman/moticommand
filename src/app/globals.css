@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 232, 224, 201;
+  /* Parchment */
+  --background-start-rgb: 5, 8, 16;
+  /* Deepest Navy */
+  --background-end-rgb: 15, 12, 24;
+  /* Almost Black Purple */
+  --primary-rgb: 184, 134, 11;
+  /* Gold */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #050810;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050810;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(184, 134, 11, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(184, 134, 11, 0.4);
+}

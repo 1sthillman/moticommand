@@ -1,0 +1,3267 @@
+{
+  "categories": [
+    {
+      "id": "kaybetmek",
+      "name": "Kaybetmek",
+      "symbol": "💔",
+      "description": "Bir şeyin sonunu kabul etmek, yıkımın tam ortasında ayakta kalmak."
+    },
+    {
+      "id": "beklemek",
+      "name": "Beklemek",
+      "symbol": "⏳",
+      "description": "Zamanın işi bitirmesine izin vermek, aceleciliğin cevabı olmadığını anlamak."
+    },
+    {
+      "id": "basarisizlik",
+      "name": "Başarısız Olmak",
+      "symbol": "⚡",
+      "description": "Planların çökerken, yeni bir gerçekliğin kapılarını aralamak."
+    },
+    {
+      "id": "vazgecmek",
+      "name": "Vazgeçmek",
+      "symbol": "🍂",
+      "description": "Bırakmanın gücünü keşfetmek, sahip olmayı bırakınca kazanmak."
+    },
+    {
+      "id": "yalnizlik",
+      "name": "Yalnız Kalmak",
+      "symbol": "🌑",
+      "description": "Kendi sessizliğinle yüzleşmek, içindeki boşlukları doldurmayı öğrenmek."
+    },
+    {
+      "id": "gucluluk",
+      "name": "Güçlü Görünmek",
+      "symbol": "🛡️",
+      "description": "Zaafını gizlerken, kalkanının arkasında ne kaybettiğini fark etmek."
+    },
+    {
+      "id": "hassasiyet",
+      "name": "Hassas Olmak",
+      "symbol": "🌸",
+      "description": "Kırılganlığını kabul etmek, incinmenin insan olmanın kanıtı olduğunu anlamak."
+    },
+    {
+      "id": "para",
+      "name": "Para Kazanmak",
+      "symbol": "⚖️",
+      "description": "Ekonomik gerçeklikle yüzleşmek, parayla ölçülemeyen şeylerin değerini keşfetmek."
+    },
+    {
+      "id": "kariyer",
+      "name": "Kariyer İnşası",
+      "symbol": "climb",
+      "description": "Tırmanılan merdivenlerin nereye dayandığını sorgulamak."
+    },
+    {
+      "id": "aile",
+      "name": "Aile Bağları",
+      "symbol": "house",
+      "description": "Köklerin seni beslediği mi yoksa zehirlediği mi yer?"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "kaybetmek-1",
+      "category": "kaybetmek",
+      "title": "Bir ilişkinin bittiğini anladığında",
+      "ageRange": "30-36",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 729,
+      "lateLearned": 741,
+      "stillLearning": 479,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-2",
+      "category": "kaybetmek",
+      "title": "Gençliğinin bittiğini anladığında",
+      "ageRange": "36-30",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 90,
+      "lateLearned": 467,
+      "stillLearning": 395,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-3",
+      "category": "kaybetmek",
+      "title": "Bir dostun artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-69",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 757,
+      "lateLearned": 353,
+      "stillLearning": 396,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-4",
+      "category": "kaybetmek",
+      "title": "Bir fırsatın artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-62",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 314,
+      "lateLearned": 123,
+      "stillLearning": 295,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-5",
+      "category": "kaybetmek",
+      "title": "Sağlığının artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-33",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 405,
+      "lateLearned": 287,
+      "stillLearning": 491,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-6",
+      "category": "kaybetmek",
+      "title": "Masumiyetin artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-60",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 302,
+      "lateLearned": 566,
+      "stillLearning": 241,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-7",
+      "category": "kaybetmek",
+      "title": "İnancının artık senin olmadığını fark ettiğinde",
+      "ageRange": "37-67",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 226,
+      "lateLearned": 188,
+      "stillLearning": 282,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-8",
+      "category": "kaybetmek",
+      "title": "Hevesinin artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-50",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 521,
+      "lateLearned": 293,
+      "stillLearning": 176,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-9",
+      "category": "kaybetmek",
+      "title": "Evinin bittiğini anladığında",
+      "ageRange": "22-69",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 709,
+      "lateLearned": 76,
+      "stillLearning": 448,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-10",
+      "category": "kaybetmek",
+      "title": "Memleketinin bittiğini anladığında",
+      "ageRange": "22-33",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 331,
+      "lateLearned": 664,
+      "stillLearning": 180,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-11",
+      "category": "kaybetmek",
+      "title": "Eski neşenin bittiğini anladığında",
+      "ageRange": "27-69",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 819,
+      "lateLearned": 408,
+      "stillLearning": 217,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-12",
+      "category": "kaybetmek",
+      "title": "Babanın artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-42",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 88,
+      "lateLearned": 352,
+      "stillLearning": 436,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-13",
+      "category": "kaybetmek",
+      "title": "Annenin artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-55",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 420,
+      "lateLearned": 639,
+      "stillLearning": 48,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-14",
+      "category": "kaybetmek",
+      "title": "Sevgilinin artık senin olmadığını fark ettiğinde",
+      "ageRange": "29-52",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 400,
+      "lateLearned": 216,
+      "stillLearning": 32,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-15",
+      "category": "kaybetmek",
+      "title": "Hayallerinin artık senin olmadığını fark ettiğinde",
+      "ageRange": "20-54",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 234,
+      "lateLearned": 103,
+      "stillLearning": 169,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-16",
+      "category": "kaybetmek",
+      "title": "Umudunun bittiğini anladığında",
+      "ageRange": "24-54",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 935,
+      "lateLearned": 262,
+      "stillLearning": 41,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-17",
+      "category": "kaybetmek",
+      "title": "Cesaretinin bittiğini anladığında",
+      "ageRange": "24-37",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 248,
+      "lateLearned": 402,
+      "stillLearning": 258,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-18",
+      "category": "kaybetmek",
+      "title": "Zamanın artık senin olmadığını fark ettiğinde",
+      "ageRange": "31-53",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 92,
+      "lateLearned": 514,
+      "stillLearning": 376,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kaybetmek-19",
+      "category": "kaybetmek",
+      "title": "Yeteneklerinin bittiğini anladığında",
+      "ageRange": "24-44",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 511,
+      "lateLearned": 608,
+      "stillLearning": 489,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kaybetmek-20",
+      "category": "kaybetmek",
+      "title": "Hafızanın artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-50",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 334,
+      "lateLearned": 747,
+      "stillLearning": 244,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "beklemek-21",
+      "category": "beklemek",
+      "title": "Terfi için doğru zamanı beklerken",
+      "ageRange": "25-47",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 840,
+      "lateLearned": 104,
+      "stillLearning": 416,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-22",
+      "category": "beklemek",
+      "title": "Mezuniyet için doğru zamanı beklerken",
+      "ageRange": "24-40",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 268,
+      "lateLearned": 483,
+      "stillLearning": 175,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-23",
+      "category": "beklemek",
+      "title": "Emeklilik için doğru zamanı beklerken",
+      "ageRange": "21-36",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 162,
+      "lateLearned": 514,
+      "stillLearning": 339,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-24",
+      "category": "beklemek",
+      "title": "Haber için doğru zamanı beklerken",
+      "ageRange": "36-58",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 938,
+      "lateLearned": 97,
+      "stillLearning": 456,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-25",
+      "category": "beklemek",
+      "title": "Mesaj için doğru zamanı beklerken",
+      "ageRange": "29-63",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 507,
+      "lateLearned": 768,
+      "stillLearning": 326,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-26",
+      "category": "beklemek",
+      "title": "Af için doğru zamanı beklerken",
+      "ageRange": "26-44",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 447,
+      "lateLearned": 775,
+      "stillLearning": 509,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-27",
+      "category": "beklemek",
+      "title": "Adalet için doğru zamanı beklerken",
+      "ageRange": "32-30",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 427,
+      "lateLearned": 394,
+      "stillLearning": 460,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-28",
+      "category": "beklemek",
+      "title": "İyileşme için doğru zamanı beklerken",
+      "ageRange": "24-54",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 743,
+      "lateLearned": 221,
+      "stillLearning": 125,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-29",
+      "category": "beklemek",
+      "title": "Bayram için doğru zamanı beklerken",
+      "ageRange": "28-40",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 427,
+      "lateLearned": 624,
+      "stillLearning": 395,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-30",
+      "category": "beklemek",
+      "title": "Haftasonu için doğru zamanı beklerken",
+      "ageRange": "31-39",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 843,
+      "lateLearned": 635,
+      "stillLearning": 29,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-31",
+      "category": "beklemek",
+      "title": "Yaz için doğru zamanı beklerken",
+      "ageRange": "18-64",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 438,
+      "lateLearned": 241,
+      "stillLearning": 82,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-32",
+      "category": "beklemek",
+      "title": "Kış için doğru zamanı beklerken",
+      "ageRange": "22-35",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 570,
+      "lateLearned": 408,
+      "stillLearning": 73,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-33",
+      "category": "beklemek",
+      "title": "Ölüm için doğru zamanı beklerken",
+      "ageRange": "19-61",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 852,
+      "lateLearned": 543,
+      "stillLearning": 133,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-34",
+      "category": "beklemek",
+      "title": "Doğum için doğru zamanı beklerken",
+      "ageRange": "25-68",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 649,
+      "lateLearned": 316,
+      "stillLearning": 116,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-35",
+      "category": "beklemek",
+      "title": "Aşk için doğru zamanı beklerken",
+      "ageRange": "32-30",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 680,
+      "lateLearned": 614,
+      "stillLearning": 164,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-36",
+      "category": "beklemek",
+      "title": "İlham için doğru zamanı beklerken",
+      "ageRange": "28-49",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 109,
+      "lateLearned": 267,
+      "stillLearning": 311,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-37",
+      "category": "beklemek",
+      "title": "Para için doğru zamanı beklerken",
+      "ageRange": "19-69",
+      "steps": [
+        "Sabırsızdır gece. Göz uyku tutmaz.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 711,
+      "lateLearned": 393,
+      "stillLearning": 226,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-38",
+      "category": "beklemek",
+      "title": "Onay için doğru zamanı beklerken",
+      "ageRange": "20-47",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Saatler donar.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 225,
+      "lateLearned": 569,
+      "stillLearning": 509,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-39",
+      "category": "beklemek",
+      "title": "Takdir için doğru zamanı beklerken",
+      "ageRange": "26-39",
+      "steps": [
+        "Sabırsızdır gece. Nefes dar gelir.",
+        "Zaman geçmek bilmez. Güneş doğmaz.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 536,
+      "lateLearned": 563,
+      "stillLearning": 93,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "beklemek-40",
+      "category": "beklemek",
+      "title": "Anlaşılma için doğru zamanı beklerken",
+      "ageRange": "31-38",
+      "steps": [
+        "Sabırsızdır gece. Saniye yıl olur.",
+        "Zaman geçmek bilmez. Takvim yaprakları yapışır.",
+        "Bir gün vazgeçersin beklemekten.",
+        "O an gelir beklenen. Ama sen değişmişsindir."
+      ],
+      "experienced": 459,
+      "lateLearned": 218,
+      "stillLearning": 18,
+      "warning": "Beklemek eylemsizlik değildir. Beklerken kim olduğuna dikkat et."
+    },
+    {
+      "id": "basarisizlik-41",
+      "category": "basarisizlik",
+      "title": "Sınavda bittiğini anladığında",
+      "ageRange": "22-62",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 310,
+      "lateLearned": 254,
+      "stillLearning": 127,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-42",
+      "category": "basarisizlik",
+      "title": "Mülakatta bittiğini anladığında",
+      "ageRange": "36-48",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 335,
+      "lateLearned": 662,
+      "stillLearning": 390,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-43",
+      "category": "basarisizlik",
+      "title": "Projende artık senin olmadığını fark ettiğinde",
+      "ageRange": "20-62",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 758,
+      "lateLearned": 776,
+      "stillLearning": 403,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-44",
+      "category": "basarisizlik",
+      "title": "Evliliğinde artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-65",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 112,
+      "lateLearned": 266,
+      "stillLearning": 450,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-45",
+      "category": "basarisizlik",
+      "title": "Yatırımda artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-53",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 513,
+      "lateLearned": 666,
+      "stillLearning": 470,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-46",
+      "category": "basarisizlik",
+      "title": "Diyetinde artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-42",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 251,
+      "lateLearned": 314,
+      "stillLearning": 330,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-47",
+      "category": "basarisizlik",
+      "title": "Sunumda artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-37",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 415,
+      "lateLearned": 722,
+      "stillLearning": 346,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-48",
+      "category": "basarisizlik",
+      "title": "Sanatında bittiğini anladığında",
+      "ageRange": "31-36",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1016,
+      "lateLearned": 62,
+      "stillLearning": 189,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-49",
+      "category": "basarisizlik",
+      "title": "Sporunda artık senin olmadığını fark ettiğinde",
+      "ageRange": "19-56",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 226,
+      "lateLearned": 811,
+      "stillLearning": 355,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-50",
+      "category": "basarisizlik",
+      "title": "Liderliğinde artık senin olmadığını fark ettiğinde",
+      "ageRange": "23-47",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 547,
+      "lateLearned": 383,
+      "stillLearning": 441,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-51",
+      "category": "basarisizlik",
+      "title": "Ebeveynlikte artık senin olmadığını fark ettiğinde",
+      "ageRange": "31-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 637,
+      "lateLearned": 143,
+      "stillLearning": 508,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-52",
+      "category": "basarisizlik",
+      "title": "Arkadaşlıkta bittiğini anladığında",
+      "ageRange": "33-59",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 810,
+      "lateLearned": 538,
+      "stillLearning": 129,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-53",
+      "category": "basarisizlik",
+      "title": "Ticarette artık senin olmadığını fark ettiğinde",
+      "ageRange": "24-30",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 927,
+      "lateLearned": 301,
+      "stillLearning": 253,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-54",
+      "category": "basarisizlik",
+      "title": "Kodlamada bittiğini anladığında",
+      "ageRange": "27-69",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 798,
+      "lateLearned": 20,
+      "stillLearning": 328,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-55",
+      "category": "basarisizlik",
+      "title": "Yazmada artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-38",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 172,
+      "lateLearned": 480,
+      "stillLearning": 134,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-56",
+      "category": "basarisizlik",
+      "title": "Konuşmada bittiğini anladığında",
+      "ageRange": "30-37",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 729,
+      "lateLearned": 747,
+      "stillLearning": 399,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-57",
+      "category": "basarisizlik",
+      "title": "Tartışmada bittiğini anladığında",
+      "ageRange": "36-45",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 555,
+      "lateLearned": 55,
+      "stillLearning": 190,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-58",
+      "category": "basarisizlik",
+      "title": "Pazarlıkta artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-69",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 156,
+      "lateLearned": 654,
+      "stillLearning": 200,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "basarisizlik-59",
+      "category": "basarisizlik",
+      "title": "Tamirde bittiğini anladığında",
+      "ageRange": "29-38",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 342,
+      "lateLearned": 301,
+      "stillLearning": 114,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "basarisizlik-60",
+      "category": "basarisizlik",
+      "title": "Yetenekte artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-37",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 181,
+      "lateLearned": 89,
+      "stillLearning": 92,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-61",
+      "category": "vazgecmek",
+      "title": "Sigaradan artık senin olmadığını fark ettiğinde",
+      "ageRange": "21-58",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 210,
+      "lateLearned": 654,
+      "stillLearning": 445,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-62",
+      "category": "vazgecmek",
+      "title": "Alkol artık senin olmadığını fark ettiğinde",
+      "ageRange": "28-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 835,
+      "lateLearned": 206,
+      "stillLearning": 59,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-63",
+      "category": "vazgecmek",
+      "title": "Takıntıdan artık senin olmadığını fark ettiğinde",
+      "ageRange": "33-34",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 383,
+      "lateLearned": 483,
+      "stillLearning": 316,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-64",
+      "category": "vazgecmek",
+      "title": "Eski sevgiliden artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 772,
+      "lateLearned": 106,
+      "stillLearning": 107,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-65",
+      "category": "vazgecmek",
+      "title": "Kinden bittiğini anladığında",
+      "ageRange": "32-50",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 177,
+      "lateLearned": 168,
+      "stillLearning": 224,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-66",
+      "category": "vazgecmek",
+      "title": "Nefretten artık senin olmadığını fark ettiğinde",
+      "ageRange": "23-35",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 961,
+      "lateLearned": 584,
+      "stillLearning": 423,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-67",
+      "category": "vazgecmek",
+      "title": "Haklı olmaktan artık senin olmadığını fark ettiğinde",
+      "ageRange": "37-51",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 755,
+      "lateLearned": 145,
+      "stillLearning": 158,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-68",
+      "category": "vazgecmek",
+      "title": "Kazanmaktan bittiğini anladığında",
+      "ageRange": "26-41",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 401,
+      "lateLearned": 762,
+      "stillLearning": 507,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-69",
+      "category": "vazgecmek",
+      "title": "Şehirden artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-46",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 880,
+      "lateLearned": 779,
+      "stillLearning": 419,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-70",
+      "category": "vazgecmek",
+      "title": "İşten artık senin olmadığını fark ettiğinde",
+      "ageRange": "37-58",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 369,
+      "lateLearned": 444,
+      "stillLearning": 345,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-71",
+      "category": "vazgecmek",
+      "title": "Okuldan bittiğini anladığında",
+      "ageRange": "32-45",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 493,
+      "lateLearned": 709,
+      "stillLearning": 416,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-72",
+      "category": "vazgecmek",
+      "title": "Giyimden bittiğini anladığında",
+      "ageRange": "23-65",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 965,
+      "lateLearned": 324,
+      "stillLearning": 122,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-73",
+      "category": "vazgecmek",
+      "title": "Tarzdan artık senin olmadığını fark ettiğinde",
+      "ageRange": "25-33",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 580,
+      "lateLearned": 221,
+      "stillLearning": 408,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-74",
+      "category": "vazgecmek",
+      "title": "İdeallerinden artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-39",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 256,
+      "lateLearned": 95,
+      "stillLearning": 467,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-75",
+      "category": "vazgecmek",
+      "title": "Sözünden artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-63",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 683,
+      "lateLearned": 312,
+      "stillLearning": 279,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-76",
+      "category": "vazgecmek",
+      "title": "Yeminden artık senin olmadığını fark ettiğinde",
+      "ageRange": "31-37",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 1007,
+      "lateLearned": 762,
+      "stillLearning": 496,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-77",
+      "category": "vazgecmek",
+      "title": "Prensibinden bittiğini anladığında",
+      "ageRange": "26-48",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 214,
+      "lateLearned": 306,
+      "stillLearning": 354,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-78",
+      "category": "vazgecmek",
+      "title": "Alışkanlıktan artık senin olmadığını fark ettiğinde",
+      "ageRange": "29-61",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 813,
+      "lateLearned": 575,
+      "stillLearning": 223,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "vazgecmek-79",
+      "category": "vazgecmek",
+      "title": "Konfordan bittiğini anladığında",
+      "ageRange": "27-37",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 101,
+      "lateLearned": 788,
+      "stillLearning": 201,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "vazgecmek-80",
+      "category": "vazgecmek",
+      "title": "Güvenlikten artık senin olmadığını fark ettiğinde",
+      "ageRange": "23-44",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 88,
+      "lateLearned": 428,
+      "stillLearning": 130,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-81",
+      "category": "yalnizlik",
+      "title": "Kalabalıkta artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-39",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 962,
+      "lateLearned": 730,
+      "stillLearning": 281,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-82",
+      "category": "yalnizlik",
+      "title": "Evde bittiğini anladığında",
+      "ageRange": "22-32",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 734,
+      "lateLearned": 440,
+      "stillLearning": 410,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-83",
+      "category": "yalnizlik",
+      "title": "Ofiste artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-33",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 876,
+      "lateLearned": 467,
+      "stillLearning": 426,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-84",
+      "category": "yalnizlik",
+      "title": "Okulda artık senin olmadığını fark ettiğinde",
+      "ageRange": "35-32",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 383,
+      "lateLearned": 389,
+      "stillLearning": 496,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-85",
+      "category": "yalnizlik",
+      "title": "Yatakta artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-52",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 1020,
+      "lateLearned": 261,
+      "stillLearning": 227,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-86",
+      "category": "yalnizlik",
+      "title": "Yolda artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-53",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 209,
+      "lateLearned": 382,
+      "stillLearning": 157,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-87",
+      "category": "yalnizlik",
+      "title": "Tatil bittiğini anladığında",
+      "ageRange": "22-31",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 893,
+      "lateLearned": 465,
+      "stillLearning": 241,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-88",
+      "category": "yalnizlik",
+      "title": "Parti bittiğini anladığında",
+      "ageRange": "33-37",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 456,
+      "lateLearned": 692,
+      "stillLearning": 342,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-89",
+      "category": "yalnizlik",
+      "title": "Düğün bittiğini anladığında",
+      "ageRange": "32-35",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 429,
+      "lateLearned": 462,
+      "stillLearning": 320,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-90",
+      "category": "yalnizlik",
+      "title": "Cenaze artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-37",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 618,
+      "lateLearned": 665,
+      "stillLearning": 242,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-91",
+      "category": "yalnizlik",
+      "title": "Hastane bittiğini anladığında",
+      "ageRange": "21-53",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 870,
+      "lateLearned": 204,
+      "stillLearning": 238,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-92",
+      "category": "yalnizlik",
+      "title": "Sinema bittiğini anladığında",
+      "ageRange": "24-59",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 614,
+      "lateLearned": 447,
+      "stillLearning": 386,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-93",
+      "category": "yalnizlik",
+      "title": "Konser artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-48",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 145,
+      "lateLearned": 431,
+      "stillLearning": 236,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-94",
+      "category": "yalnizlik",
+      "title": "Orman artık senin olmadığını fark ettiğinde",
+      "ageRange": "29-60",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 884,
+      "lateLearned": 377,
+      "stillLearning": 320,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-95",
+      "category": "yalnizlik",
+      "title": "Deniz artık senin olmadığını fark ettiğinde",
+      "ageRange": "19-61",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 365,
+      "lateLearned": 615,
+      "stillLearning": 361,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-96",
+      "category": "yalnizlik",
+      "title": "Dağ artık senin olmadığını fark ettiğinde",
+      "ageRange": "35-56",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 393,
+      "lateLearned": 749,
+      "stillLearning": 352,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-97",
+      "category": "yalnizlik",
+      "title": "Karanlık artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-56",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 326,
+      "lateLearned": 511,
+      "stillLearning": 399,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "yalnizlik-98",
+      "category": "yalnizlik",
+      "title": "Aydınlık bittiğini anladığında",
+      "ageRange": "29-44",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 957,
+      "lateLearned": 476,
+      "stillLearning": 245,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-99",
+      "category": "yalnizlik",
+      "title": "Sessizlik bittiğini anladığında",
+      "ageRange": "21-62",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 757,
+      "lateLearned": 73,
+      "stillLearning": 253,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "yalnizlik-100",
+      "category": "yalnizlik",
+      "title": "Gürültü artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-38",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 340,
+      "lateLearned": 777,
+      "stillLearning": 442,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-101",
+      "category": "gucluluk",
+      "title": "Ağlarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "21-59",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 225,
+      "lateLearned": 431,
+      "stillLearning": 240,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-102",
+      "category": "gucluluk",
+      "title": "Korkarken bittiğini anladığında",
+      "ageRange": "19-38",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 895,
+      "lateLearned": 188,
+      "stillLearning": 91,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-103",
+      "category": "gucluluk",
+      "title": "Üzülürken bittiğini anladığında",
+      "ageRange": "29-68",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 171,
+      "lateLearned": 595,
+      "stillLearning": 23,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-104",
+      "category": "gucluluk",
+      "title": "Yorulurken artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-54",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 251,
+      "lateLearned": 376,
+      "stillLearning": 232,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-105",
+      "category": "gucluluk",
+      "title": "Hastayken bittiğini anladığında",
+      "ageRange": "33-32",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 888,
+      "lateLearned": 98,
+      "stillLearning": 201,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-106",
+      "category": "gucluluk",
+      "title": "Kırılırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "27-49",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 855,
+      "lateLearned": 632,
+      "stillLearning": 266,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-107",
+      "category": "gucluluk",
+      "title": "Düşerken bittiğini anladığında",
+      "ageRange": "18-35",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 730,
+      "lateLearned": 361,
+      "stillLearning": 421,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-108",
+      "category": "gucluluk",
+      "title": "Yenilirken artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-67",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 662,
+      "lateLearned": 322,
+      "stillLearning": 457,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-109",
+      "category": "gucluluk",
+      "title": "Kaçarken bittiğini anladığında",
+      "ageRange": "26-43",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 647,
+      "lateLearned": 175,
+      "stillLearning": 475,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-110",
+      "category": "gucluluk",
+      "title": "Saklanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-33",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 573,
+      "lateLearned": 725,
+      "stillLearning": 480,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-111",
+      "category": "gucluluk",
+      "title": "Utanırken bittiğini anladığında",
+      "ageRange": "19-30",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 532,
+      "lateLearned": 744,
+      "stillLearning": 380,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-112",
+      "category": "gucluluk",
+      "title": "Kıskanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-67",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 347,
+      "lateLearned": 130,
+      "stillLearning": 353,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-113",
+      "category": "gucluluk",
+      "title": "Özlerken bittiğini anladığında",
+      "ageRange": "23-66",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 994,
+      "lateLearned": 644,
+      "stillLearning": 150,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-114",
+      "category": "gucluluk",
+      "title": "Severken bittiğini anladığında",
+      "ageRange": "19-52",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 715,
+      "lateLearned": 262,
+      "stillLearning": 260,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "gucluluk-115",
+      "category": "gucluluk",
+      "title": "Nefret ederken artık senin olmadığını fark ettiğinde",
+      "ageRange": "25-65",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 417,
+      "lateLearned": 41,
+      "stillLearning": 271,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-116",
+      "category": "gucluluk",
+      "title": "Bağırırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-39",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 195,
+      "lateLearned": 714,
+      "stillLearning": 229,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-117",
+      "category": "gucluluk",
+      "title": "Susarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "19-66",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 1032,
+      "lateLearned": 138,
+      "stillLearning": 413,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-118",
+      "category": "gucluluk",
+      "title": "Titrerken artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-43",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 296,
+      "lateLearned": 206,
+      "stillLearning": 67,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-119",
+      "category": "gucluluk",
+      "title": "Kanarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "28-69",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 82,
+      "lateLearned": 649,
+      "stillLearning": 174,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "gucluluk-120",
+      "category": "gucluluk",
+      "title": "Ölürken artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 664,
+      "lateLearned": 676,
+      "stillLearning": 174,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-121",
+      "category": "hassasiyet",
+      "title": "Eleştirildiğinde bittiğini anladığında",
+      "ageRange": "30-36",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 844,
+      "lateLearned": 807,
+      "stillLearning": 112,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-122",
+      "category": "hassasiyet",
+      "title": "Reddedildiğinde artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-59",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 866,
+      "lateLearned": 599,
+      "stillLearning": 32,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-123",
+      "category": "hassasiyet",
+      "title": "Unutulduğunda bittiğini anladığında",
+      "ageRange": "30-46",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 382,
+      "lateLearned": 479,
+      "stillLearning": 134,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-124",
+      "category": "hassasiyet",
+      "title": "Aldatıldığında artık senin olmadığını fark ettiğinde",
+      "ageRange": "25-51",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 875,
+      "lateLearned": 47,
+      "stillLearning": 195,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-125",
+      "category": "hassasiyet",
+      "title": "Kandırıldığında bittiğini anladığında",
+      "ageRange": "22-61",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 807,
+      "lateLearned": 809,
+      "stillLearning": 374,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-126",
+      "category": "hassasiyet",
+      "title": "Kovulduğunda artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-54",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 361,
+      "lateLearned": 49,
+      "stillLearning": 76,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-127",
+      "category": "hassasiyet",
+      "title": "Azarlandığında bittiğini anladığında",
+      "ageRange": "20-44",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 938,
+      "lateLearned": 220,
+      "stillLearning": 422,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-128",
+      "category": "hassasiyet",
+      "title": "Gülündüğünde bittiğini anladığında",
+      "ageRange": "27-60",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 575,
+      "lateLearned": 238,
+      "stillLearning": 71,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-129",
+      "category": "hassasiyet",
+      "title": "Bakıldığında artık senin olmadığını fark ettiğinde",
+      "ageRange": "25-40",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 371,
+      "lateLearned": 73,
+      "stillLearning": 338,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-130",
+      "category": "hassasiyet",
+      "title": "Dokunulduğunda artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-53",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 864,
+      "lateLearned": 132,
+      "stillLearning": 45,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-131",
+      "category": "hassasiyet",
+      "title": "Sevildiğinde bittiğini anladığında",
+      "ageRange": "33-63",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 548,
+      "lateLearned": 480,
+      "stillLearning": 469,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-132",
+      "category": "hassasiyet",
+      "title": "Övüldüğünde bittiğini anladığında",
+      "ageRange": "27-54",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1001,
+      "lateLearned": 194,
+      "stillLearning": 444,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-133",
+      "category": "hassasiyet",
+      "title": "Seçildiğinde artık senin olmadığını fark ettiğinde",
+      "ageRange": "35-46",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 96,
+      "lateLearned": 817,
+      "stillLearning": 501,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-134",
+      "category": "hassasiyet",
+      "title": "Dışlandığında artık senin olmadığını fark ettiğinde",
+      "ageRange": "20-41",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 194,
+      "lateLearned": 638,
+      "stillLearning": 405,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-135",
+      "category": "hassasiyet",
+      "title": "Susturulduğunda artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-50",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 290,
+      "lateLearned": 534,
+      "stillLearning": 287,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-136",
+      "category": "hassasiyet",
+      "title": "Bağırıldığında artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-51",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 757,
+      "lateLearned": 48,
+      "stillLearning": 487,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-137",
+      "category": "hassasiyet",
+      "title": "İtildiğinde bittiğini anladığında",
+      "ageRange": "31-57",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 384,
+      "lateLearned": 113,
+      "stillLearning": 437,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-138",
+      "category": "hassasiyet",
+      "title": "Çekildiğinde bittiğini anladığında",
+      "ageRange": "18-48",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 814,
+      "lateLearned": 37,
+      "stillLearning": 387,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "hassasiyet-139",
+      "category": "hassasiyet",
+      "title": "Vurulduğunda artık senin olmadığını fark ettiğinde",
+      "ageRange": "20-45",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 208,
+      "lateLearned": 102,
+      "stillLearning": 410,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "hassasiyet-140",
+      "category": "hassasiyet",
+      "title": "Öpüldüğünde bittiğini anladığında",
+      "ageRange": "18-37",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 722,
+      "lateLearned": 188,
+      "stillLearning": 339,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-141",
+      "category": "para",
+      "title": "Harcarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-46",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 694,
+      "lateLearned": 412,
+      "stillLearning": 225,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-142",
+      "category": "para",
+      "title": "Biriktirirken bittiğini anladığında",
+      "ageRange": "22-50",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 826,
+      "lateLearned": 229,
+      "stillLearning": 331,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-143",
+      "category": "para",
+      "title": "Sayarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-58",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 861,
+      "lateLearned": 454,
+      "stillLearning": 359,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-144",
+      "category": "para",
+      "title": "Borçlanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "35-44",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 692,
+      "lateLearned": 572,
+      "stillLearning": 227,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-145",
+      "category": "para",
+      "title": "Öderken bittiğini anladığında",
+      "ageRange": "29-65",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 83,
+      "lateLearned": 727,
+      "stillLearning": 438,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-146",
+      "category": "para",
+      "title": "İsterken artık senin olmadığını fark ettiğinde",
+      "ageRange": "19-61",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 203,
+      "lateLearned": 422,
+      "stillLearning": 316,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-147",
+      "category": "para",
+      "title": "Verirken bittiğini anladığında",
+      "ageRange": "35-40",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 523,
+      "lateLearned": 714,
+      "stillLearning": 434,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-148",
+      "category": "para",
+      "title": "Kaybederken artık senin olmadığını fark ettiğinde",
+      "ageRange": "33-63",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 440,
+      "lateLearned": 621,
+      "stillLearning": 158,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-149",
+      "category": "para",
+      "title": "Bulurken artık senin olmadığını fark ettiğinde",
+      "ageRange": "31-37",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 747,
+      "lateLearned": 603,
+      "stillLearning": 63,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-150",
+      "category": "para",
+      "title": "Çalarken bittiğini anladığında",
+      "ageRange": "33-55",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 638,
+      "lateLearned": 293,
+      "stillLearning": 378,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-151",
+      "category": "para",
+      "title": "Saklarken bittiğini anladığında",
+      "ageRange": "30-40",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 93,
+      "lateLearned": 781,
+      "stillLearning": 249,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-152",
+      "category": "para",
+      "title": "Yatırırken bittiğini anladığında",
+      "ageRange": "26-54",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 591,
+      "lateLearned": 785,
+      "stillLearning": 147,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-153",
+      "category": "para",
+      "title": "Çekerken bittiğini anladığında",
+      "ageRange": "26-30",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 303,
+      "lateLearned": 563,
+      "stillLearning": 216,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-154",
+      "category": "para",
+      "title": "Biterken bittiğini anladığında",
+      "ageRange": "20-68",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 70,
+      "lateLearned": 421,
+      "stillLearning": 111,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-155",
+      "category": "para",
+      "title": "Artarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "21-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 738,
+      "lateLearned": 489,
+      "stillLearning": 412,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-156",
+      "category": "para",
+      "title": "Bölüşürken artık senin olmadığını fark ettiğinde",
+      "ageRange": "24-42",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 424,
+      "lateLearned": 271,
+      "stillLearning": 508,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-157",
+      "category": "para",
+      "title": "Kıskanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "22-30",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 435,
+      "lateLearned": 356,
+      "stillLearning": 274,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-158",
+      "category": "para",
+      "title": "Gizlerken artık senin olmadığını fark ettiğinde",
+      "ageRange": "27-47",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 760,
+      "lateLearned": 85,
+      "stillLearning": 49,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "para-159",
+      "category": "para",
+      "title": "Gösterirken bittiğini anladığında",
+      "ageRange": "32-67",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 530,
+      "lateLearned": 431,
+      "stillLearning": 262,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "para-160",
+      "category": "para",
+      "title": "Yakarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-50",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 531,
+      "lateLearned": 153,
+      "stillLearning": 244,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-161",
+      "category": "kariyer",
+      "title": "Başlarken bittiğini anladığında",
+      "ageRange": "34-41",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 764,
+      "lateLearned": 249,
+      "stillLearning": 41,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-162",
+      "category": "kariyer",
+      "title": "Yükselirken bittiğini anladığında",
+      "ageRange": "31-47",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 976,
+      "lateLearned": 26,
+      "stillLearning": 441,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-163",
+      "category": "kariyer",
+      "title": "Düşerken bittiğini anladığında",
+      "ageRange": "23-61",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 162,
+      "lateLearned": 440,
+      "stillLearning": 348,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-164",
+      "category": "kariyer",
+      "title": "Değiştirirken bittiğini anladığında",
+      "ageRange": "36-60",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 251,
+      "lateLearned": 320,
+      "stillLearning": 436,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-165",
+      "category": "kariyer",
+      "title": "Bırakırken bittiğini anladığında",
+      "ageRange": "25-36",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 789,
+      "lateLearned": 568,
+      "stillLearning": 302,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-166",
+      "category": "kariyer",
+      "title": "Ararken bittiğini anladığında",
+      "ageRange": "36-48",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 341,
+      "lateLearned": 401,
+      "stillLearning": 25,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-167",
+      "category": "kariyer",
+      "title": "Bulurken bittiğini anladığında",
+      "ageRange": "23-60",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1035,
+      "lateLearned": 142,
+      "stillLearning": 292,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-168",
+      "category": "kariyer",
+      "title": "Seçerken artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-68",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 998,
+      "lateLearned": 396,
+      "stillLearning": 112,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-169",
+      "category": "kariyer",
+      "title": "Reddederken artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-48",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 721,
+      "lateLearned": 34,
+      "stillLearning": 73,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-170",
+      "category": "kariyer",
+      "title": "Kovulurken bittiğini anladığında",
+      "ageRange": "30-40",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1040,
+      "lateLearned": 571,
+      "stillLearning": 327,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-171",
+      "category": "kariyer",
+      "title": "Terfi ederken artık senin olmadığını fark ettiğinde",
+      "ageRange": "24-32",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 637,
+      "lateLearned": 216,
+      "stillLearning": 33,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-172",
+      "category": "kariyer",
+      "title": "Zam alırken bittiğini anladığında",
+      "ageRange": "35-55",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 184,
+      "lateLearned": 313,
+      "stillLearning": 263,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-173",
+      "category": "kariyer",
+      "title": "İstifa ederken artık senin olmadığını fark ettiğinde",
+      "ageRange": "21-36",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 1012,
+      "lateLearned": 280,
+      "stillLearning": 358,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-174",
+      "category": "kariyer",
+      "title": "Emekli olurken bittiğini anladığında",
+      "ageRange": "34-59",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 913,
+      "lateLearned": 778,
+      "stillLearning": 431,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-175",
+      "category": "kariyer",
+      "title": "Batarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "26-49",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 978,
+      "lateLearned": 293,
+      "stillLearning": 189,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-176",
+      "category": "kariyer",
+      "title": "Çıkarken bittiğini anladığında",
+      "ageRange": "25-36",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 619,
+      "lateLearned": 106,
+      "stillLearning": 491,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-177",
+      "category": "kariyer",
+      "title": "Satarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "37-59",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 864,
+      "lateLearned": 671,
+      "stillLearning": 327,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-178",
+      "category": "kariyer",
+      "title": "Alırken bittiğini anladığında",
+      "ageRange": "31-45",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 637,
+      "lateLearned": 125,
+      "stillLearning": 486,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "kariyer-179",
+      "category": "kariyer",
+      "title": "Yönetirken artık senin olmadığını fark ettiğinde",
+      "ageRange": "24-69",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 997,
+      "lateLearned": 218,
+      "stillLearning": 452,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "kariyer-180",
+      "category": "kariyer",
+      "title": "Yönetilirken bittiğini anladığında",
+      "ageRange": "34-48",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 162,
+      "lateLearned": 51,
+      "stillLearning": 336,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-181",
+      "category": "aile",
+      "title": "Doğarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "32-58",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 886,
+      "lateLearned": 106,
+      "stillLearning": 399,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-182",
+      "category": "aile",
+      "title": "Büyürken bittiğini anladığında",
+      "ageRange": "27-30",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 858,
+      "lateLearned": 447,
+      "stillLearning": 333,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-183",
+      "category": "aile",
+      "title": "Evlenirken artık senin olmadığını fark ettiğinde",
+      "ageRange": "30-33",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 927,
+      "lateLearned": 494,
+      "stillLearning": 405,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-184",
+      "category": "aile",
+      "title": "Boşanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "25-35",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 635,
+      "lateLearned": 238,
+      "stillLearning": 362,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-185",
+      "category": "aile",
+      "title": "Ölürken bittiğini anladığında",
+      "ageRange": "36-44",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 918,
+      "lateLearned": 293,
+      "stillLearning": 178,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-186",
+      "category": "aile",
+      "title": "Taşınırken bittiğini anladığında",
+      "ageRange": "26-34",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Keşke konuşsaydım' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 215,
+      "lateLearned": 88,
+      "stillLearning": 267,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-187",
+      "category": "aile",
+      "title": "Kavga ederken bittiğini anladığında",
+      "ageRange": "25-52",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Ben daha çok çabalasaydım' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1005,
+      "lateLearned": 374,
+      "stillLearning": 290,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-188",
+      "category": "aile",
+      "title": "Barışırken bittiğini anladığında",
+      "ageRange": "34-30",
+      "steps": [
+        "Önce inkâr edersin. 'Bu bir rüya' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 81,
+      "lateLearned": 108,
+      "stillLearning": 428,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-189",
+      "category": "aile",
+      "title": "Ayrılırken bittiğini anladığında",
+      "ageRange": "31-36",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Duvarların konuştuğu bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 493,
+      "lateLearned": 103,
+      "stillLearning": 266,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-190",
+      "category": "aile",
+      "title": "Kavuşurken artık senin olmadığını fark ettiğinde",
+      "ageRange": "18-31",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 1005,
+      "lateLearned": 446,
+      "stillLearning": 509,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-191",
+      "category": "aile",
+      "title": "Beklerken bittiğini anladığında",
+      "ageRange": "28-46",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 1034,
+      "lateLearned": 133,
+      "stillLearning": 180,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-192",
+      "category": "aile",
+      "title": "Giderken bittiğini anladığında",
+      "ageRange": "24-33",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 329,
+      "lateLearned": 225,
+      "stillLearning": 298,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-193",
+      "category": "aile",
+      "title": "Kalırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "34-52",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 536,
+      "lateLearned": 577,
+      "stillLearning": 101,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-194",
+      "category": "aile",
+      "title": "Susarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "21-40",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 97,
+      "lateLearned": 309,
+      "stillLearning": 30,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-195",
+      "category": "aile",
+      "title": "Konuşurken artık senin olmadığını fark ettiğinde",
+      "ageRange": "23-48",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 391,
+      "lateLearned": 234,
+      "stillLearning": 426,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-196",
+      "category": "aile",
+      "title": "Yerken bittiğini anladığında",
+      "ageRange": "28-32",
+      "steps": [
+        "Önce inkâr edersin. 'Yanlış anlaşılma' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Telefonun çalmadığı bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 796,
+      "lateLearned": 570,
+      "stillLearning": 86,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-197",
+      "category": "aile",
+      "title": "İçerken artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-34",
+      "steps": [
+        "Sahiplenmek istersin. Sanki kırılır gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 656,
+      "lateLearned": 76,
+      "stillLearning": 75,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-198",
+      "category": "aile",
+      "title": "Uyurken bittiğini anladığında",
+      "ageRange": "19-45",
+      "steps": [
+        "Önce inkâr edersin. 'Daha düzelebilir' dersin.",
+        "Sonra suçu kendinde ararsın. 'Neden görmedim?' dersin.",
+        "Sessizlik gelir. Karşı tarafın cevap vermediği bir sessizlik.",
+        "Sonra uyanırsın. Yeni bir güne, eski bir sen olmadan."
+      ],
+      "experienced": 476,
+      "lateLearned": 486,
+      "stillLearning": 81,
+      "warning": "Kaybetmek, eksilmek değildir. Bırakmaktır arkanda ne kaldığını görmek."
+    },
+    {
+      "id": "aile-199",
+      "category": "aile",
+      "title": "Uyanırken artık senin olmadığını fark ettiğinde",
+      "ageRange": "36-30",
+      "steps": [
+        "Sahiplenmek istersin. Sanki tükenir gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 567,
+      "lateLearned": 55,
+      "stillLearning": 495,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    },
+    {
+      "id": "aile-200",
+      "category": "aile",
+      "title": "Yaşarken artık senin olmadığını fark ettiğinde",
+      "ageRange": "31-59",
+      "steps": [
+        "Sahiplenmek istersin. Sanki boğulur gibi.",
+        "Ama ellerinin arasından kayıp gider.",
+        "Gidenin ardından bakmak zordur.",
+        "Giden gitmiştir, kalan ise eksik değil, sadedir."
+      ],
+      "experienced": 55,
+      "lateLearned": 765,
+      "stillLearning": 15,
+      "warning": "Sahip olduğun tek şey, şu an aldığın nefestir."
+    }
+  ],
+  "contradictions": []
+}
