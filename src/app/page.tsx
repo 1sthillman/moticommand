@@ -15,7 +15,7 @@ export default function Home() {
                     İNSANLIĞIN HATALI TALİMATLARI
                 </h1>
                 <p className="text-xl text-foreground/60 font-serif italic max-w-2xl mx-auto">
-                    "Binlerce yıllık deneyimin, kırık hayallerin ve sessiz kabullenişlerin dijital anıtı."
+                    &quot;Binlerce yıllık deneyimin, kırık hayallerin ve sessiz kabullenişlerin dijital anıtı.&quot;
                 </p>
             </div>
 

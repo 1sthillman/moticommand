@@ -46,7 +46,7 @@ export default function MotivasyonPage() {
                         >
                             <Quote className="absolute -top-12 -left-4 md:-left-12 w-24 h-24 text-primary/10 transform -scale-x-100" />
                             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl leading-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70 drop-shadow-2xl mb-8">
-                                "{currentQuote.text}"
+                                &quot;{currentQuote.text}&quot;
                             </h1>
                             <p className="text-xl text-primary/80 font-serif italic tracking-wide">
                                 — {currentQuote.author}
