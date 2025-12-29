@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: "export",
+  output: 'export',
+  trailingSlash: true,
+  basePath: isProd ? '/moticommand' : '',
   images: {
     unoptimized: true,
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
