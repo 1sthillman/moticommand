@@ -10,12 +10,19 @@ import { quotes } from "@/lib/quotes";
 export default function MotivasyonPage() {
     const [currentQuote, setCurrentQuote] = useState(quotes[0]);
     const [key, setKey] = useState(0);
+    const [autoPlay, setAutoPlay] = useState(true);
 
     const randomize = () => {
         const random = quotes[Math.floor(Math.random() * quotes.length)];
         setCurrentQuote(random);
         setKey(k => k + 1);
     };
+
+    useEffect(() => {
+        if (!autoPlay) return;
+        const interval = setInterval(randomize, 60000); // 1 minute
+        return () => clearInterval(interval);
+    }, [autoPlay]);
 
     return (
         <main className="min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-[#0a0e1a] to-black flex flex-col items-center justify-center p-8 relative overflow-hidden">
@@ -42,7 +49,7 @@ export default function MotivasyonPage() {
                             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
                             exit={{ opacity: 0, scale: 1.05, filter: "blur(5px)" }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
-                            className="relative"
+                            className="relative mb-8"
                         >
                             <Quote className="absolute -top-12 -left-4 md:-left-12 w-24 h-24 text-primary/10 transform -scale-x-100" />
                             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl leading-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70 drop-shadow-2xl mb-8">
@@ -54,19 +61,31 @@ export default function MotivasyonPage() {
                         </motion.div>
                     </AnimatePresence>
 
-                    <motion.div
-                        className="mt-12 flex justify-center gap-4"
+                    {/* Widget Controls */}
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex items-center gap-2 text-xs font-mono text-primary/60 bg-primary/5 px-3 py-1 rounded-full border border-primary/10">
+                            <span className={`w-2 h-2 rounded-full ${autoPlay ? 'bg-green-500 animate-pulse' : 'bg-red-500'}`}></span>
+                            {autoPlay ? "WIDGET MODU: 1 DK'DA BİR YENİLENİYOR" : "WIDGET MODU: DURAKLATILDI"}
+                        </div>
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                     >
-                        <button
-                            onClick={randomize}
-                            className="group flex items-center gap-3 px-8 py-4 bg-white/5 border border-white/10 rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
-                        >
-                            <RefreshCw className="w-5 h-5 text-foreground/70 group-hover:rotate-180 transition-transform duration-700" />
-                            <span className="text-sm font-bold tracking-widest text-foreground/90 uppercase">Yeni Bir Doz</span>
-                        </button>
+                        <div className="flex gap-4">
+                            <button
+                                onClick={() => setAutoPlay(!autoPlay)}
+                                className="px-6 py-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-colors text-xs tracking-widest text-foreground/60"
+                            >
+                                {autoPlay ? "DURAKLAT" : "BAŞLAT"}
+                            </button>
+                            <button
+                                onClick={randomize}
+                                className="group flex items-center gap-3 px-8 py-3 bg-primary/10 border border-primary/20 rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+                            >
+                                <RefreshCw className="w-4 h-4 text-foreground/90 group-hover:rotate-180 transition-transform duration-700" />
+                                <span className="text-xs font-bold tracking-widest text-foreground/90 uppercase">YENİ DOZ</span>
+                            </button>
+                        </div>
                     </motion.div>
                 </section>
 
