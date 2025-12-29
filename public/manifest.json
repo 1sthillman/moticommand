@@ -2,18 +2,18 @@
     "name": "Moticommand Arşiv",
     "short_name": "Moticommand",
     "description": "İnsanlığın Hatalı Talimatları ve Günlük Motivasyon Dozu",
-    "start_url": "/motivasyon",
+    "start_url": "/moticommand/motivasyon",
     "display": "standalone",
     "background_color": "#050810",
     "theme_color": "#B8860B",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/moticommand/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/moticommand/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }

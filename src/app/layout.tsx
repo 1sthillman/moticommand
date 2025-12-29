@@ -17,6 +17,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="tr">
+            <head>
+                <link rel="manifest" href="/moticommand/manifest.json" />
+                <meta name="theme-color" content="#B8860B" />
+            </head>
             <body className={`${cinzel.variable} ${crimsonText.variable} font-serif bg-background text-foreground antialiased`}>{children}</body>
         </html>
     );

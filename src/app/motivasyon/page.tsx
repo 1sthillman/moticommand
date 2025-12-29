@@ -61,32 +61,35 @@ export default function MotivasyonPage() {
                         </motion.div>
                     </AnimatePresence>
 
-                    {/* Widget Controls */}
                     <div className="flex flex-col items-center gap-4">
                         <div className="flex items-center gap-2 text-xs font-mono text-primary/60 bg-primary/5 px-3 py-1 rounded-full border border-primary/10">
                             <span className={`w-2 h-2 rounded-full ${autoPlay ? 'bg-green-500 animate-pulse' : 'bg-red-500'}`}></span>
                             {autoPlay ? "WIDGET MODU: 1 DK'DA BİR YENİLENİYOR" : "WIDGET MODU: DURAKLATILDI"}
                         </div>
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.5 }}
-                    >
-                        <div className="flex gap-4">
-                            <button
-                                onClick={() => setAutoPlay(!autoPlay)}
-                                className="px-6 py-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-colors text-xs tracking-widest text-foreground/60"
-                            >
-                                {autoPlay ? "DURAKLAT" : "BAŞLAT"}
-                            </button>
-                            <button
-                                onClick={randomize}
-                                className="group flex items-center gap-3 px-8 py-3 bg-primary/10 border border-primary/20 rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
-                            >
-                                <RefreshCw className="w-4 h-4 text-foreground/90 group-hover:rotate-180 transition-transform duration-700" />
-                                <span className="text-xs font-bold tracking-widest text-foreground/90 uppercase">YENİ DOZ</span>
-                            </button>
-                        </div>
-                    </motion.div>
+
+                        <motion.div
+                            className="mt-4 flex justify-center gap-4"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.5 }}
+                        >
+                            <div className="flex gap-4">
+                                <button
+                                    onClick={() => setAutoPlay(!autoPlay)}
+                                    className="px-6 py-3 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-colors text-xs tracking-widest text-foreground/60"
+                                >
+                                    {autoPlay ? "DURAKLAT" : "BAŞLAT"}
+                                </button>
+                                <button
+                                    onClick={randomize}
+                                    className="group flex items-center gap-3 px-8 py-3 bg-primary/10 border border-primary/20 rounded-full hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+                                >
+                                    <RefreshCw className="w-4 h-4 text-foreground/90 group-hover:rotate-180 transition-transform duration-700" />
+                                    <span className="text-xs font-bold tracking-widest text-foreground/90 uppercase">YENİ DOZ</span>
+                                </button>
+                            </div>
+                        </motion.div>
+                    </div>
                 </section>
 
             </div>
