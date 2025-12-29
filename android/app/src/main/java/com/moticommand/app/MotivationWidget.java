@@ -46,6 +46,7 @@ public class MotivationWidget extends AppWidgetProvider {
     };
 
     private static final String ACTION_AUTO_UPDATE = "com.moticommand.app.ACTION_AUTO_UPDATE";
+    private static final String ACTION_REFRESH = "com.moticommand.app.ACTION_REFRESH";
 
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int appWidgetId) {
         String[] parts = QUOTES[new Random().nextInt(QUOTES.length)].split("\\|");
