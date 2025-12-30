@@ -12,12 +12,12 @@ import android.widget.RemoteViews;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class MotivationWidget extends AppWidgetProvider {
 
     private static final String PREFS_NAME = "com.moticommand.app.WidgetPrefs";
     private static final String KEY_POOL = "quote_pool";
+    private static final String KEY_CURRENT_CHILD = "current_child";
 
     private static final String[] QUOTES = {
             "Bazen sığınmak değil, fırtınanın kendisi olmak gerekir.|Anonim",
@@ -25,7 +25,7 @@ public class MotivationWidget extends AppWidgetProvider {
             "Başlamak için mükemmel olmak zorunda değilsin, ama mükemmel olmak için başlamak zorundasın.|Zig Ziglar",
             "Korku, sadece zihnin kabul ettiği bir illüzyondur.|Anonim",
             "En büyük hapishane, başkalarının ne düşündüğü korkusunun içinde yaşamaktır.|Anonim",
-            "Düşmek başarısızlık değildir. Düşüp kalkamamak başarısızlıktır.|Konfüçyüs",
+            "Düşmek başarısızlık değildir. Düşüp kalkamamak başarısizliktir.|Konfüçyüs",
             "Hayat fırtınanın geçmesini beklemek değil, yağmurda dans etmeyi öğrenmektir.|Seneca",
             "Olamadığın kişi yüzünden, olduğun kişiyi cezalandırmayı bırak.|Anonim",
             "Acı, değişim için bir çağrıdır. Dinlemezsen, bağırır.|Anonim",
@@ -290,7 +290,7 @@ public class MotivationWidget extends AppWidgetProvider {
             "Sabreden derviş muradına ermiş.|Atasözü",
             "Denize düşen yılana sarılır.|Atasözü",
             "Damlaya damlaya göl olur.|Atasözü",
-            "Ağlamayan çocuğa meme vermezler.|Atasözü",
+            "Ağalamayan çocuğa meme vermezler.|Atasözü",
             "Gülü seven dikenine katlanır.|Atasözü",
             "Keskin sirke küpüne zarardır.|Atasözü",
             "İyilik yap denize at, balık bilmezse Halik bilir.|Anonim",
@@ -459,10 +459,27 @@ public class MotivationWidget extends AppWidgetProvider {
         String author = parts.length > 1 ? "— " + parts[1] : "";
 
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.motivation_widget);
-        views.setTextViewText(R.id.widget_quote_text, "\"" + quote + "\"");
-        views.setTextViewText(R.id.widget_author_text, author);
 
-        // Manual Refresh Button
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        int currentChild = prefs.getInt(KEY_CURRENT_CHILD, 0);
+        int nextChild = (currentChild + 1) % 2;
+
+        // Update the NEXT child's text
+        if (nextChild == 0) {
+            views.setTextViewText(R.id.widget_quote_text_1, "\"" + quote + "\"");
+            views.setTextViewText(R.id.widget_author_text_1, author);
+        } else {
+            views.setTextViewText(R.id.widget_quote_text_2, "\"" + quote + "\"");
+            views.setTextViewText(R.id.widget_author_text_2, author);
+        }
+
+        // Animated Flip
+        views.setDisplayedChild(R.id.widget_flipper, nextChild);
+
+        // Save current child
+        prefs.edit().putInt(KEY_CURRENT_CHILD, nextChild).apply();
+
+        // Refresh Button
         Intent intent = new Intent(context, MotivationWidget.class);
         intent.setAction(ACTION_REFRESH);
         intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, new int[] { appWidgetId });
@@ -487,7 +504,6 @@ public class MotivationWidget extends AppWidgetProvider {
         }
 
         if (pool.isEmpty()) {
-            // Refill and shuffle
             for (int i = 0; i < QUOTES.length; i++)
                 pool.add(i);
             Collections.shuffle(pool);
@@ -495,7 +511,6 @@ public class MotivationWidget extends AppWidgetProvider {
 
         int nextIndex = pool.remove(0);
 
-        // Save back
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < pool.size(); i++) {
             sb.append(pool.get(i));
@@ -546,8 +561,6 @@ public class MotivationWidget extends AppWidgetProvider {
         intent.setAction(ACTION_AUTO_UPDATE);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, intent,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
-
-        // 35 Seconds Interval
         long interval = 35000;
         alarmManager.setRepeating(android.app.AlarmManager.RTC, System.currentTimeMillis(), interval, pendingIntent);
     }

@@ -14,30 +14,71 @@
         android:scaleType="centerCrop"
         android:tint="#B8860B" />
 
-    <TextView
-        android:id="@+id/widget_quote_text"
+    <ViewFlipper
+        android:id="@+id/widget_flipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:fontFamily="serif"
-        android:gravity="center"
-        android:text="Yükleniyor..."
-        android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        android:textStyle="italic" />
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out">
 
-    <TextView
-        android:id="@+id/widget_author_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/widget_quote_text"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text=""
-        android:textColor="#B8860B"
-        android:textSize="12sp"
-        android:textStyle="bold" />
+        <!-- Layer 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/widget_quote_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Yükleniyor..."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/widget_author_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text=""
+                android:textColor="#B8860B"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Layer 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/widget_quote_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/widget_author_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text=""
+                android:textColor="#B8860B"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ViewFlipper>
 
     <ImageButton
         android:id="@+id/widget_refresh_button"
