@@ -11,12 +11,29 @@ export default function MotivasyonPage() {
     const [currentQuote, setCurrentQuote] = useState(quotes[0]);
     const [key, setKey] = useState(0);
     const [autoPlay, setAutoPlay] = useState(true);
+    const [pool, setPool] = useState<number[]>([]);
 
     const randomize = () => {
-        const random = quotes[Math.floor(Math.random() * quotes.length)];
-        setCurrentQuote(random);
+        let newPool = [...pool];
+        if (newPool.length === 0) {
+            // Refill and shuffle pool
+            newPool = quotes.map((_, i) => i);
+            for (let i = newPool.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newPool[i], newPool[j]] = [newPool[j], newPool[i]];
+            }
+        }
+
+        const nextIndex = newPool.pop()!;
+        setPool(newPool);
+        setCurrentQuote(quotes[nextIndex]);
         setKey(k => k + 1);
     };
+
+    useEffect(() => {
+        // Initial shuffle
+        randomize();
+    }, []);
 
     useEffect(() => {
         if (!autoPlay) return;
